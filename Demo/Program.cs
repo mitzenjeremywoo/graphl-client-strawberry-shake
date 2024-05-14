@@ -12,7 +12,7 @@ namespace Demo
         static async Task Main(string[] args)
         {
             var serviceCollection = new ServiceCollection();
-
+            
             serviceCollection
                 .AddConferenceClient()
                 .ConfigureHttpClient(client => client.BaseAddress = new Uri("https://workshop.chillicream.com/graphql"));

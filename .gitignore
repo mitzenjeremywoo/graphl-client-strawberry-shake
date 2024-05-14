@@ -1,2 +1,7 @@
 Demo/bin/
 Demo/obj/
+.vs/
+BookClient/bin/
+BookClient/obj/
+BookServer/bin/Debug/
+BookServer/obj/
